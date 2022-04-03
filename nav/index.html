@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Nav </title>
+    <!-- Bootstrap core CSS -->
+  
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <!-- style -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- css -->
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Nav bar -->
+ <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" aria-label="Main navigation">
+  <div class="container-fluid">
+    <h2 class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.8 19.3"><style>.st0{fill:#3776b9}</style><g id="Layer_1"><path class="st0" d="M0 0h5.3v5.3H0zm6.8 0h5.3v5.3H6.8zm6.9 0H19v5.3h-5.3zM0 6.8h5.3v5.3H0zm6.8 0h5.3v5.3H6.8zm6.9 0H19v5.3h-5.3zM0 13.7h5.3V19H0zm6.8 0h5.3V19H6.8z"/><path d="M13.7 13.7H19V19h-5.3z" fill="#3776b9"/><path class="st0" d="M29.8 8.2c1.1-1 2.5-1.5 4-1.5 2.7 0 5.3 1.8 5.3 6.3s-2.9 6.3-6.1 6.3c-1.6 0-3.2-.4-4.6-1.3V0h1.4v8.2zm0 9.1c1 .5 2.1.8 3.2.8 2.5 0 "/></g></svg>Eagle Brick</h2>
+    
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Suggestions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notification</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown01">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search...." autocomplete="on" role="combobox" aria-label="Search" aria-live="polite" spellcheck="false">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="nav-scroller bg-dark shadow-sm">
+  <nav class="nav nav-underline" aria-label="Secondary navigation">
+    
+    <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+    <a class="nav-link" href="#">
+      Friends
+      <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
+    </a>
+    <a class="nav-link" href="#">Explore</a>
+    <a class="nav-link" href="#">Chat
+      <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
+    </a>
+    <a class="nav-link" href="#">Live Video
+      <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
+    </a>
+    <a class="nav-link" href="#">Feeling</a>
+    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Suggestions</a>
+    <a class="nav-link" href="#">Page</a>
+  </nav>
+</div>
+ 
+<!-- Side bar -->
+<div class="p-3 bg-white d-flex flex-column text-dark " style="width: 280px;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.8 17.3"><style>.st0{fill:#3776b9}</style><g id="Layer_1"><path class="st0" d="M0 0h5.3v5.3H0zm6.8 0h5.3v5.3H6.8zm6.9 0H19v5.3h-5.3zM0 6.8h5.3v5.3H0zm6.8 0h5.3v5.3H6.8zm6.9 0H19v5.3h-5.3zM0 13.7h5.3V19H0zm6.8 0h5.3V19H6.8z"/><path d="M13.7 13.7H19V19h-5.3z" fill="#3776b9"/><path class="st0" d="M29.8 8.2c1.1-1 2.5-1.5 4-1.5 2.7 0 5.3 1.8 5.3 6.3s-2.9 6.3-6.1 6.3c-1.6 0-3.2-.4-4.6-1.3V0h1.4v8.2zm0 9.1c1 .5 2.1.8 3.2.8 2.5 0 "/></g></svg>
+  <span class="fs-4">EAGLE BRICKS</span>
+  <ul class="list-unstyled ps-0">
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+        Home
+      </button>
+      <div class="collapse show" id="home-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">Overview</a></li>
+          <li><a href="#" class="link-dark rounded">Updates</a></li>
+          <li><a href="#" class="link-dark rounded">Reports</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+        Dashboard
+      </button>
+      <div class="collapse" id="dashboard-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">Overview</a></li>
+          <li><a href="#" class="link-dark rounded">Weekly</a></li>
+          <li><a href="#" class="link-dark rounded">Monthly</a></li>
+          <li><a href="#" class="link-dark rounded">Annually</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+        Orders
+      </button>
+      <div class="collapse" id="orders-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">New</a></li>
+          <li><a href="#" class="link-dark rounded">Processed</a></li>
+          <li><a href="#" class="link-dark rounded">Shipped</a></li>
+          <li><a href="#" class="link-dark rounded">Returned</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="border-top my-3"></li>
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+        Account
+      </button>
+      <div class="collapse" id="account-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="#" class="link-dark rounded">New...</a></li>
+          <li><a href="#" class="link-dark rounded">Profile</a></li>
+          <li><a href="#" class="link-dark rounded">Settings</a></li>
+          <li><a href="#" class="link-dark rounded">Sign out</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+ <footer class="white-section" id="footer">
+  <li class="list-inline-item"><a href="#">Privacy</a></li>
+  <li class="list-inline-item"><a href="#">Terms</a></li>
+  <li class="list-inline-item"><a href="#">Support</a></li>
+  <div class="bottom-container">
+    <i class="social-icon fab fa-linkedin"><a class="footer-link" href="https://fontawesome.com/v5.15/icons/linkedin?style=brands">LinkedIn</a></i>
+    <i class="social-icon fas fa-Facebook"><a class="footer-link" href="https://www.Facebook.com">Facebook</a></i>
+    <i class="social-icon fab fa-Twitter"><a class="footer-link" href="https://twitter.com">Twitter</a></i>
+    <i class="social-icon fas fa-Whatsapp"><a class="footer-link" href="https://Whatsapp.com">Whatsapp</a></i>
+    <i class="social-icon fab fa-instagram"><a class="footer-link" href="https://instagram.com">instagram</a></i>
+    <p> <small class="mb-1">&copy;2021 Eagle</small> </p>
+  </div>
+</footer>
+ 
+
+ <script src="sidebars.js"></script>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+  </html>
